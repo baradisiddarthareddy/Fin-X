@@ -1,0 +1,118 @@
+/* CompoundInterestCalculator.css */
+
+.compound-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    min-height: calc(100vh - 120px);
+}
+
+.compound-calculator h2 {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-bottom: 20px;
+}
+
+.calculator-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input,
+.frequency-dropdown {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.form-group input:focus,
+.frequency-dropdown:focus {
+    outline: none;
+    border-color: #0073e6;
+    box-shadow: 0 0 5px rgba(0, 115, 230, 0.3);
+}
+
+.calculate-btn {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.calculate-btn:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+}
+
+.results {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.results h3 {
+    font-size: 1.5rem;
+    color: #0073e6;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.results-table th,
+.results-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.results-table th {
+    background-color: #0073e6;
+    color: white;
+    font-weight: bold;
+}
+
+.results-table td {
+    background-color: #f9f9f9;
+}
+
+.results-table tr:hover {
+    background-color: #e3f2fd;
+}
+
+.summary h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+}
